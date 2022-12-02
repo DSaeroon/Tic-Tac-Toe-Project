@@ -1,0 +1,36 @@
+body{
+    background: url(/img/3713231.jpg);
+    background-size: cover;
+}
+.cell{
+    height: 240px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 220px;
+    font-size: 200px;
+    cursor: pointer;
+    background-color: #082464;
+    border: 3px solid #ff00fb;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+.cell:hover{
+    background-color: #052e8f;
+}
+#gameContainer{
+    font-family: "Rockwell", cursive;
+    text-align: center;
+    color: #ff00fb;
+    text-decoration: solid;
+    transition-duration: 1s;
+}
+#cellContainer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 550px;
+    width: 750px;
+    height: 750px;
+}
